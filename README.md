@@ -31,7 +31,7 @@ Also, the descriptive analysis indicates the difference between teams home win% 
 
 And then feature selection, we applied three feature selection methods (L1-based feature selection, Tree-based feature selection and Pearson correlation linear feature selection). We measured the performance of Emsemble model by using data selected by all three feature selection methods. The testing score and testing logloss indicates that variables selected by L1-based feature selection have the best performance.
 
-![picture](https://github.com/hoddiemelo/March_Data_Crunch_Madness/blob/master/Feature%20Selection.png)
+![picture](https://github.com/hoddiemelo/March_Data_Crunch_Madness/blob/master/FeatureSelection.png)
 
 We compared the performance of all eight models mearsured by testing score and testing logloss. According to this result we selected LogisticRegression, RandomForest, GradientBoosting and Decision Tree to predict the result by using Ensemble Model VotingClassifier.
 
