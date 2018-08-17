@@ -19,17 +19,31 @@ First, I want to show our project flow.
 
 The first step is Data Processing including data collection and data cleaning. In this part we add several important variables.
 
-![picture](https://github.com/hoddiemelo/March_Data_Crunch_Madness/blob/master/added_variables.jpg)
+![picture](https://github.com/hoddiemelo/March_Data_Crunch_Madness/blob/master/addvariables.jpg)
 
 We create a totally new variable named Coach Influence. The way how we make it is on the below.
 
 ![picture](https://github.com/hoddiemelo/March_Data_Crunch_Madness/blob/master/Coach%20Influence.jpg)
 
+Also, the descriptive analysis indicates the difference between teams home win% and away win%. So I made the adjusted win formular.
+
+![picture](https://github.com/hoddiemelo/March_Data_Crunch_Madness/blob/master/Adjusted%20Win.jpg)
+
 And then feature selection, we applied three feature selection methods (L1-based feature selection, Tree-based feature selection and Pearson correlation linear feature selection). We measured the performance of Emsemble model by using data selected by all three feature selection methods. The testing score and testing logloss indicates that variables selected by L1-based feature selection have the best performance.
 
 ![picture](https://github.com/hoddiemelo/March_Data_Crunch_Madness/blob/master/Feature%20Selection.png)
 
-We compared the performance of all eight models mearsured by testing score and testing logloss. According to this result we selected LogisticRegression, RandomForest, GradientBoosting and Decision Tree to emsemble the result.
+We compared the performance of all eight models mearsured by testing score and testing logloss. According to this result we selected LogisticRegression, RandomForest, GradientBoosting and Decision Tree to predict the result by using Ensemble Model VotingClassifier.
+
+![picture](https://github.com/hoddiemelo/March_Data_Crunch_Madness/blob/master/Testing%20Score.png)
+
+![picture](https://github.com/hoddiemelo/March_Data_Crunch_Madness/blob/master/Testing%20log%20loss.png)
+
+In the end, I'd like to show our model performance on predicting 2018 March Madness. This chart shows our prediction distribution and and correctness. We finally get 74.6% accuracy (successfully predicted 50 of 67 games)and logloss 0.58
+
+![picture](https://github.com/hoddiemelo/March_Data_Crunch_Madness/blob/master/2018%20Prediction%20probability%20distribution%20and%20correctness.jpg)
+
+
 
 
 
