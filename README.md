@@ -13,4 +13,4 @@ Highlights of Our Project
 
 One of the highlight of our project is the new variables, including EFG-OEFG, TPP-DTPP, SRS, SOS, Adj_win and the most important one Coach Influence. Another one is our project's philosophy, let the marchine learning algorithm decide variables and models. We try to make all procedures become rational and sentific. 
 
-https://github.com/hoddiemelo/March_Data_Crunch_Madness/added_variables.jpg
+![picture](https://github.com/hoddiemelo/March_Data_Crunch_Madness/blob/master/added_variables.jpg);
