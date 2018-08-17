@@ -13,4 +13,16 @@ Highlights of Our Project
 
 One of the highlight of our project is the new variables, including EFG-OEFG, TPP-DTPP, SRS, SOS, Adj_win and the most important one Coach Influence. Another one is our project's philosophy, let the marchine learning algorithm decide variables and models. We try to make all procedures become rational and sentific. 
 
-![picture](https://github.com/hoddiemelo/March_Data_Crunch_Madness/blob/master/added_variables.jpg);
+First, I want to show our project flow. 
+
+The first step is Data Processing including data collection and data cleaning. In this part we add several important variables.
+
+We create a totally new variable named Coach Influence. The way how we make it is on the below.
+
+And then feature selection, we applied three feature selection methods (L1-based feature selection, Tree-based feature selection and Pearson correlation linear feature selection). We measured the performance of Emsemble model by using data selected by all three feature selection methods. The testing score and testing logloss indicates that variables selected by L1-based feature selection have the best performance.
+
+We compared the performance of all eight models mearsured by testing score and testing logloss. According to this result we selected LogisticRegression, RandomForest, GradientBoosting and Decision Tree to emsemble the result.
+
+
+
+![picture](https://github.com/hoddiemelo/March_Data_Crunch_Madness/blob/master/added_variables.jpg)
